@@ -90,3 +90,13 @@ macOS Security Fix: If blocked, go to System Settings > Privacy & Security and c
 - Open ```Annie's 3D Panner.jucer``` in Projucer.
 
 - Export to Xcode or Visual Studio and build.
+
+---
+
+### Future Improvements
+
+- Smoother HRTF Switching (Zipper Noise Reduction): Currently, rapid movement of the Azimuth, Elevation or Width knobs may cause audible artifacts or "zipper noise."
+
+- This occurs because the convolution engine swaps the Impulse Response (IR) files in real-time whenever the position changes.
+
+- Maybe implement cross-fading convolution or interpolation between neighboring IRs.
