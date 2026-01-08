@@ -18,7 +18,7 @@ It features a dual-engine design that automatically switches between a Binaural 
 
 ## Demo Video
 
-Download the demo video here: https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=sharing
+[Download the demo video here](https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=sharing): https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=sharing
 
 (Note: Please wear headphones 🎧 for the binaural effect)
 
@@ -72,13 +72,13 @@ If you want to experiment with different head shapes and ear characteristics, yo
 ### Installation
 
 #### Option 1: Download Binaries
+[Download macOS here](https://github.com/dbb1019/Annie-s-3D-Panner/releases/tag/v0.9.0)
 
 Move the files to:
 
 - VST3 ```~/Library/Audio/Plug-Ins/VST3/```
 
 - AU (.component) ```~/Library/Audio/Plug-Ins/Components/```
-
 
 macOS Security Fix: If blocked, go to System Settings > Privacy & Security and click "Open Anyway".
 (Or run ```sudo xattr -cr [plugin_path]``` in Terminal).
