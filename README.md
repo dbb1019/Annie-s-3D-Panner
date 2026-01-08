@@ -20,8 +20,6 @@ It features a dual-engine design that switches between a Binaural 3D Panner (usi
 
 [[Download the demo video here](https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=sharing)]
 
-https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=sharing
-
 (Note: Please wear headphones 🎧 for the binaural effect)
 
 ## Modes
