@@ -13,7 +13,7 @@ It moves sound forward, it moves sound behind...
 
 Annie's Panner is a binaural 3D panner made with **JUCE**.  
 
-It features a dual-engine design that automatically switches between a Binaural 3D Panner (using HRTF convolution) and a standard Stereo Panner, depending on whether HRTF data is loaded.
+It features a dual-engine design that switches between a Binaural 3D Panner (using HRTF convolution) and a standard Stereo Panner, depending on whether HRTF data is loaded.
 
 
 ## Demo Video
@@ -51,9 +51,9 @@ https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qeN_VLBqWG6-DZC0T/view?usp=shari
 - Width: Adjusts the stereo width.
 
 ## HRTF Setup Guide
-To use the 3D features, you need to load Head-Related Impulse Responses (HRTF). This plugin uses the SADIE II HRTF Database developed by the University of York.
+To use the 3D features, you need to load Head-Related Impulse Responses (HRIR). This plugin uses the SADIE II HRTF Database developed by the University of York.
 
-I have included 6 different HRTF models in the SADIE folder of this repository to get you started immediately:
+I have included 6 different HRTF models in the SADIE folder of this repository:
 
 - D1, D2 (Dummy Head Measurements)
 
