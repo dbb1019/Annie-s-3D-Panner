@@ -25,7 +25,7 @@ Download the demo video here: https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qe
 ## Modes
 
 ### Binaural 3D Mode
-####Trigger: Active when a valid HRTF folder is loaded.
+#### Trigger: Active when a valid HRTF folder is loaded.
 
 - This mode uses real-time convolution to simulate 3D space over headphones. By convolving audio with Head-Related Impulse Responses (HRIR), it tricks the brain into perceiving sound sources from specific directions. The plugin splits the stereo signal into two distinct sources in the virtual 3D space.
 
@@ -39,8 +39,8 @@ Download the demo video here: https://drive.google.com/file/d/1oVSCJ9u0aT9XKh8qe
 
 - Latency Compensation: FFT cause latency, this plugin reports latency to the DAW.
 
-###Stereo Pan Mode
-####Trigger: Active when no HRTF folder is loaded (or after clicking "Clear").
+### Stereo Pan Mode
+#### Trigger: Active when no HRTF folder is loaded (or after clicking "Clear").
 
 - If no HRTF data is present, the plugin functions as a stereo panner.
 
@@ -57,14 +57,14 @@ I have included 6 different HRTF models in the SADIE folder of this repository t
 
 - H3, H4, H12, H20 (Human Subject Measurements)
 
-####How to Load:
+#### How to Load:
 - Click the "LOAD HRIR WAV" button in the plugin.
 
 - Navigate to the SADIE folder included in this download.
 
 - Select one of the subject folders (e.g., D1_HRIR_WAV or H20_HRIR_WAV) and click Open.
 
-####Want more models?
+#### Want more models?
 If you want to experiment with different head shapes and ear characteristics, you can download the full database from the official website: https://www.york.ac.uk/sadie-project/database.html
 
 ---
