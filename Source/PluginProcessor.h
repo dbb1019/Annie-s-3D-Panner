@@ -73,12 +73,14 @@ private:
     juce::LinearSmoothedValue<float> smoothedEle;
     juce::LinearSmoothedValue<float> smoothedWidth;
     
-    juce::dsp::Convolution convL, convR;
     //set latency
     //I tried zero latency, but when I listened to it in Ableton, I still felt there was phase cancellation.  The minimum latency I could set in JUCE convolution was 512 samples, so I set them to a 512-sample delay.
     //But the thing is it create a zipper noise when rotate the knob
 //    juce::dsp::Convolution convL { juce::dsp::Convolution::Latency { 512 } };
 //    juce::dsp::Convolution convR { juce::dsp::Convolution::Latency { 512 } };
+    
+    juce::dsp::Convolution convL, convR;
+    //But there is still zipper noise....
 
     juce::AudioProcessorValueTreeState apvts;
     juce::AudioProcessorValueTreeState::ParameterLayout createParameterLayout();

@@ -283,10 +283,10 @@ void NewProjectAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, j
                 calculateGains(posL, tLL, tLR);
                 calculateGains(posR, tRL, tRR);
                 
-                //compensate -4.5db
+                //compensate -3db
                 float panAbs = std::abs(pan);
                 float curve = std::cos(panAbs * juce::MathConstants<float>::halfPi);
-                float compensation = 1.0f - (1.0f - 0.596f) * curve;
+                float compensation = 1.0f - (1.0f - 0.707f) * curve;
 
                 float finalLL = tLL * compensation;
                 float finalLR = tLR * compensation;
